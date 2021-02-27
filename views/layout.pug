@@ -172,16 +172,16 @@ html(lang="en")
 						dl
 							dt Source
 							dd
-								a(href="https://github.com/janoside/btc-rpc-explorer") github.com/janoside/btc-rpc-explorer
+								a(href="https://github.com/bitcoinil/btc-rpc-explorer") github.com/bitcoinil/btc-rpc-explorer
 								
 								if (global.sourcecodeProjectMetadata)
 									div.mt-2
-										a.btn.btn-primary.btn-sm.mr-3.mb-1.text-decoration-none(href="https://github.com/janoside/btc-rpc-explorer")
+										a.btn.btn-primary.btn-sm.mr-3.mb-1.text-decoration-none(href="https://github.com/bitcoinil/btc-rpc-explorer")
 											i.fas.fa-star.mr-2
 											span.mr-2 Star 
 											span.badge.bg-white.text-dark #{global.sourcecodeProjectMetadata.stargazers_count}
 
-										a.btn.btn-primary.btn-sm.mr-3.mb-1.text-decoration-none(href="https://github.com/janoside/btc-rpc-explorer/fork")
+										a.btn.btn-primary.btn-sm.mr-3.mb-1.text-decoration-none(href="https://github.com/bitcoinil/btc-rpc-explorer/fork")
 											i.fas.fa-code-branch.mr-2
 											span.mr-2 Fork 
 											span.badge.bg-white.text-dark #{global.sourcecodeProjectMetadata.forks_count}
@@ -194,7 +194,7 @@ html(lang="en")
 								if (sourcecodeVersion)
 									br
 									span commit: 
-										a(href=("https://github.com/janoside/btc-rpc-explorer/commit/" + sourcecodeVersion)) #{sourcecodeVersion}
+										a(href=("https://github.com/bitcoinil/btc-rpc-explorer/commit/" + sourcecodeVersion)) #{sourcecodeVersion}
 								
 								br
 								span released: #{sourcecodeDate}
@@ -208,19 +208,19 @@ html(lang="en")
 									if (coinConfig.demoSiteUrl)
 										a(href=coinConfig.demoSiteUrl) #{coinConfig.demoSiteUrl}
 									else
-										a(href="https://explorer.btc21.org") https://explorer.btc21.org
+										a(href="https://explorer.bitcoinil.org") https://explorer.bitcoinil.org
 									
 									div.mt-2
 										- var demoSites = [];
-										- demoSites.push({url:"https://explorer.btc21.org", logoUrl:"./img/logo/btc.svg", title:"Bitcoin Explorer"});
-										- demoSites.push({url:"https://testnet.btc21.org", logoUrl:"./img/logo/tbtc.svg", title:"Testnet Explorer"});
-										- demoSites.push({url:"https://signet.btc21.org", logoUrl:"./img/logo/signet.svg", title:"Signet Explorer"});
+										- demoSites.push({url:"https://explorer.bitcoinil.org", logoUrl:"./img/logo/btc.svg", title:"Bitcoin Explorer"});
+										- demoSites.push({url:"https://testnetexplorer.bitcoinil.org", logoUrl:"./img/logo/tbtc.svg", title:"Testnet Explorer"});
+										- demoSites.push({url:"https://signet.bitcoinil.org", logoUrl:"./img/logo/signet.svg", title:"Signet Explorer"});
 
 										each demoSite in demoSites
 											a.mr-2(href=demoSite.url, title=demoSite.title, data-toggle="tooltip")
 												img(src=demoSite.logoUrl, alt=demoSite.title)
 
-										a.mr-2(href="https://lnd-admin.btc21.org", title="LND Admin", data-toggle="tooltip")
+										a.mr-2(href="https://lnd-admin.bitcoinil.org", title="LND Admin", data-toggle="tooltip")
 											img(src=("./img/logo/lnd-admin.png"), style="width: 32px; height: 32px;", alt="LND Admin")
 
 					div.col-md-7.text-md-right
