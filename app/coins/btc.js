@@ -91,7 +91,7 @@ module.exports = {
 	feeSatoshiPerByteBucketMaxima: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 50, 75, 100, 150],
 	genesisBlockHashesByNetwork:{
 		"main":	"000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-		"test":	"000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+		"test":	"000001780db928ffd1885fee6d49f50f21d40ac10d32c73a6e44d7db1cc62169",
 		"regtest": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
 		"signet":  "00000008819873e925422c1ff0f99f7cc9bbb232af63a077a480a3633bee1ef6", 
 	},
@@ -165,7 +165,7 @@ module.exports = {
 					}
 				}
 			],
-			"blockhash": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+			"blockhash": "000001780db928ffd1885fee6d49f50f21d40ac10d32c73a6e44d7db1cc62169",
 			"time": 1296688602,
 			"blocktime": 1296688602
 		},
@@ -272,7 +272,7 @@ module.exports = {
 			"avgfee": 0,
 			"avgfeerate": 0,
 			"avgtxsize": 0,
-			"blockhash": "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+			"blockhash": "000001780db928ffd1885fee6d49f50f21d40ac10d32c73a6e44d7db1cc62169",
 			"feerate_percentiles": [
 				0,
 				0,
@@ -667,7 +667,7 @@ module.exports = {
 			date: "2011-02-02",
 			chain: "test",
 			blockHeight: 0,
-			blockHash: "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+			blockHash: "000001780db928ffd1885fee6d49f50f21d40ac10d32c73a6e44d7db1cc62169",
 			summary: "The Bitcoin (regtest) Genesis Block.",
 			alertBodyHtml: "This is the first block in the Bitcoin blockchain, known as the 'Genesis Block'. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
 			referenceUrl: "https://en.bitcoin.it/wiki/Genesis_block"
