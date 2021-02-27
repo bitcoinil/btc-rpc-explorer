@@ -50,7 +50,7 @@ var currencyUnits = [
 ];
 
 module.exports = {
-	name:"Bitcoin",
+	name:"BitcoinIL",
 	ticker:"BTCIL",
 	logoUrlsByNetwork:{
 		"main":"./img/logo/btc.svg",
@@ -59,13 +59,13 @@ module.exports = {
 		"signet":"./img/logo/signet.svg"
 	},
 	siteTitlesByNetwork: {
-		"main":"Bitcoin Explorer",
+		"main":"BitcoinIL Explorer",
 		"test":"Testnet Explorer",
 		"regtest":"Regtest Explorer",
 		"signet":"Signet Explorer",
 	},
-	siteDescriptionHtml:"<b>BTCIL Explorer</b> is <a href='https://github.com/janoside/btc-rpc-explorer). If you run your own [Bitcoin Full Node](https://bitcoin.org/en/full-node), **BTCIL Explorer** can easily run alongside it, communicating via RPC calls. See the project [ReadMe](https://github.com/janoside/btc-rpc-explorer) for a list of features and instructions for running.",
-	nodeTitle:"Bitcoin Full Node",
+	siteDescriptionHtml:"<b>BTCIL Explorer</b> is <a href='https://github.com/janoside/btc-rpc-explorer). If you run your own [BitcoinIL Full Node](https://bitcoin.org/en/full-node), **BTCIL Explorer** can easily run alongside it, communicating via RPC calls. See the project [ReadMe](https://github.com/janoside/btc-rpc-explorer) for a list of features and instructions for running.",
+	nodeTitle:"BitcoinIL Full Node",
 	nodeUrl:"https://bitcoin.org/en/full-node",
 	demoSiteUrl: "https://explorer.btc21.org",
 	miningPoolsConfigUrls:[
@@ -388,8 +388,8 @@ module.exports = {
 			chain: "main",
 			blockHeight: 0,
 			blockHash: "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
-			summary: "The Bitcoin Genesis Block.",
-			alertBodyHtml: "This is the first block in the Bitcoin blockchain, known as the 'Genesis Block'. This block was mined by Bitcoin's creator Satoshi Nakamoto. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
+			summary: "The BitcoinIL Genesis Block.",
+			alertBodyHtml: "This is the first block in the BitcoinIL blockchain, known as the 'Genesis Block'. This block was mined by BitcoinIL's creator Satoshi Nakamoto. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
 			referenceUrl: "https://en.bitcoin.it/wiki/Genesis_block"
 		},
 		{
@@ -398,7 +398,7 @@ module.exports = {
 			chain: "main",
 			txid: "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
 			summary: "The coinbase transaction of the Genesis Block.",
-			alertBodyHtml: "This transaction doesn't really exist! This is the coinbase transaction of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Bitcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>Bitcoin</a> developers.",
+			alertBodyHtml: "This transaction doesn't really exist! This is the coinbase transaction of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Bitcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>BitcoinIL</a> developers.",
 			referenceUrl: "https://github.com/bitcoin/bitcoin/issues/3303"
 		},
 		{
@@ -530,8 +530,8 @@ module.exports = {
 			date: "2010-05-22",
 			chain: "main",
 			txid: "a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d",
-			summary: "The 'Bitcoin Pizza' transaction.",
-			alertBodyHtml: "This is the famous 'Bitcoin Pizza' transaction, one of the earliest 'real-world' transactions, in which 10,000 BTCIL was paid for 2 large pizzas worth ~41 USD (at an effective exchange rate of ~$0.04/BTCIL).",
+			summary: "The 'BitcoinIL Pizza' transaction.",
+			alertBodyHtml: "This is the famous 'BitcoinIL Pizza' transaction, one of the earliest 'real-world' transactions, in which 10,000 BTCIL was paid for 2 large pizzas worth ~41 USD (at an effective exchange rate of ~$0.04/BTCIL).",
 			referenceUrl: "https://bitcointalk.org/index.php?topic=137.0"
 		},
 		{
@@ -541,7 +541,7 @@ module.exports = {
 			txid: "5d80a29be1609db91658b401f85921a86ab4755969729b65257651bb9fd2c10d",
 			summary: "Destroyed bitcoin.",
 			referenceUrl: "https://bitcointalk.org/index.php?topic=7253.msg184414#msg184414",
-			referenceUrl2: "https://www.reddit.com/r/Bitcoin/comments/7mhoks/til_in_2011_a_user_running_a_modified_mining/"
+			referenceUrl2: "https://www.reddit.com/r/BitcoinIL/comments/7mhoks/til_in_2011_a_user_running_a_modified_mining/"
 		},
 		{
 			type: "blockheight",
@@ -654,8 +654,8 @@ module.exports = {
 			date: "2013-04-06",
 			chain: "main",
 			txid: "54e48e5f5c656b26c3bca14a8c95aa583d07ebe84dde3b7dd4a78f4e4186e713",
-			summary: "The Bitcoin whitepaper embedded in the Bitcoin blockchain.",
-			alertBodyHtml: "This transaction encodes the Bitcoin whitepaper PDF in 945 of its 947 outputs. You can view the PDF, decoded from data served by your own node here: <a href='./bitcoin-whitepaper'>bitcoin whitepaper</a>. Or read more about the technical details - ",
+			summary: "The BitcoinIL whitepaper embedded in the BitcoinIL blockchain.",
+			alertBodyHtml: "This transaction encodes the BitcoinIL whitepaper PDF in 945 of its 947 outputs. You can view the PDF, decoded from data served by your own node here: <a href='./bitcoin-whitepaper'>bitcoin whitepaper</a>. Or read more about the technical details - ",
 			referenceUrl: "https://bitcoin.stackexchange.com/questions/35959/how-is-the-whitepaper-decoded-from-the-blockchain-tx-with-1000x-m-of-n-multisi"
 		},
 
@@ -668,8 +668,8 @@ module.exports = {
 			chain: "test",
 			blockHeight: 0,
 			blockHash: "000001780db928ffd1885fee6d49f50f21d40ac10d32c73a6e44d7db1cc62169",
-			summary: "The Bitcoin (regtest) Genesis Block.",
-			alertBodyHtml: "This is the first block in the Bitcoin blockchain, known as the 'Genesis Block'. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
+			summary: "The BitcoinIL (regtest) Genesis Block.",
+			alertBodyHtml: "This is the first block in the BitcoinIL blockchain, known as the 'Genesis Block'. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
 			referenceUrl: "https://en.bitcoin.it/wiki/Genesis_block"
 		},
 		{
@@ -678,7 +678,7 @@ module.exports = {
 			chain: "test",
 			txid: "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
 			summary: "The coinbase transaction of the Genesis Block.",
-			alertBodyHtml: "This transaction doesn't really exist! This is the coinbase transaction of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Bitcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>Bitcoin</a> developers.",
+			alertBodyHtml: "This transaction doesn't really exist! This is the coinbase transaction of the <a href='./block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'>Bitcoin Genesis Block</a>. For more background about this special-case transaction, you can read <a href='https://github.com/bitcoin/bitcoin/issues/3303'>this brief discussion</a> among some of the <a href='https://bitcoin.org'>BitcoinIL</a> developers.",
 			referenceUrl: "https://github.com/bitcoin/bitcoin/issues/3303"
 		},
 
@@ -690,8 +690,8 @@ module.exports = {
 			chain: "regtest",
 			blockHeight: 0,
 			blockHash: "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
-			summary: "The Bitcoin (regtest) Genesis Block.",
-			alertBodyHtml: "This is the first block in the Bitcoin blockchain, known as the 'Genesis Block'. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
+			summary: "The BitcoinIL (regtest) Genesis Block.",
+			alertBodyHtml: "This is the first block in the BitcoinIL blockchain, known as the 'Genesis Block'. You can read more about <a href='https://en.bitcoin.it/wiki/Genesis_block'>the genesis block</a>.",
 			referenceUrl: "https://en.bitcoin.it/wiki/Genesis_block"
 		},
 		{
