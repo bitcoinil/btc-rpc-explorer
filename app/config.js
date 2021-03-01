@@ -191,7 +191,7 @@ module.exports = {
 					title:"Related Sites",
 					links:[
 						{name: "BitcoinIL Explorer", url:"https://explorer.bitcoinil.org", imgUrl:"./img/logo/btc.svg"},
-						{name: "Testnet Explorer", url:"https://testnetexplorer.bitcoinil.org", imgUrl:"./img/logo/tbtc.svg"},
+						{name: "Testnet Explorer", url:"https://testexplorer.bitcoinil.org", imgUrl:"./img/logo/tbtc.svg"},
 						{name: "Signet Explorer", url:"https://signet.bitcoinil.org", imgUrl:"./img/logo/signet.svg"},
 						{name: "LND Admin", url:"https://lnd-admin.bitcoinil.org", imgUrl:"./img/logo/lnd-admin.png"},
 						//{name: "Litecoin Explorer", url:"https://ltc.chaintools.io", imgUrl:"/img/logo/ltc.svg"},
