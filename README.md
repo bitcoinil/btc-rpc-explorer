@@ -1,4 +1,4 @@
-# BTC RPC Explorer
+# BTCIL RPC Explorer
 
 ![homepage](https://github.com/janoside/btc-rpc-explorer/blob/master/public/img/screenshots/homepage.png?raw=true)
 
